@@ -1,5 +1,4 @@
 import { Twitter, Linkedin, Github, Mail } from 'lucide-react';
-import Container from './Container';
 import AppStoreBadge from './AppStoreBadge';
 
 /**

@@ -1,5 +1,3 @@
-import Container from './Container';
-import SectionHeader from './SectionHeader';
 import PricingCard from './PricingCard';
 
 /**

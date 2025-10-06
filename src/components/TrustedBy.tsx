@@ -19,7 +19,7 @@ export default function TrustedBy() {
         </h3>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-          {roles.map((role, index) => (
+          {roles.map((role) => (
             <div 
               key={role.title}
               className="flex flex-col items-center text-center"

@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
 import Button from './Button';
-import Badge from './Badge';
 import AppStoreBadge from './AppStoreBadge';
 import ScreenFrame from './ScreenFrame';
 
