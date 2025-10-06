@@ -7,7 +7,6 @@ import {
   Database,
   AlertTriangle,
   Copyright,
-  Phone,
   Mail,
   MapPin
 } from 'lucide-react';

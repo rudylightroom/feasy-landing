@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import Container from './Container';
 import Button from './Button';
 import AppStoreBadge from './AppStoreBadge';
 import ScreenFrame from './ScreenFrame';

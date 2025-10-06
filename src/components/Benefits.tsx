@@ -1,6 +1,5 @@
 import { Clock, Shield, X, Lock } from 'lucide-react';
 import { motion } from 'framer-motion';
-import Container from './Container';
 
 /**
  * Benefits strip with 4 mini-panels

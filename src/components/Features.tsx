@@ -13,8 +13,6 @@ import {
   FileText as FileTextIcon,
   ArrowRight
 } from 'lucide-react';
-import Container from './Container';
-import SectionHeader from './SectionHeader';
 import FeatureCard from './FeatureCard';
 import Button from './Button';
 import ScreenFrame from './ScreenFrame';

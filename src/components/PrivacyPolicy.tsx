@@ -4,14 +4,10 @@ import {
   Shield,
   Database,
   Download,
-  Eye,
-  Trash2,
   Settings,
   Mail,
   Globe,
-  Lock,
-  FileText,
-  AlertCircle
+  Lock
 } from 'lucide-react';
 
 /**
