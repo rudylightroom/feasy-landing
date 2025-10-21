@@ -40,7 +40,7 @@ export default function CTABand() {
            whileInView={{ opacity: 1, x: 0 }}
            transition={{ duration: 0.8, delay: 0.2 }}
            viewport={{ once: true }}
-           className="relative flex justify-center lg:justify-start lg:col-span-1 -ml-24"
+           className="relative flex justify-center lg:justify-start lg:col-span-1 lg:-ml-24"
          >
           <motion.div
             animate={{ 

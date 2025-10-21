@@ -142,11 +142,11 @@ export default function Features() {
               </div>
             </div>
             
-            <div className="relative flex justify-end">
+            <div className="relative flex justify-center lg:justify-end">
               <ScreenFrame 
                 src="/screens/professional-forecasts.png"
                 alt="Professional Forecasts Dashboard"
-                className="w-full max-w-sm ml-16"
+                className="w-full max-w-sm lg:ml-16"
               />
             </div>
           </div>
@@ -263,11 +263,11 @@ export default function Features() {
           className="mb-32 relative"
         >
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="relative lg:order-1 flex justify-end">
+            <div className="relative lg:order-1 flex justify-center lg:justify-end">
               <ScreenFrame 
                 src="/screens/ai-business-plan.png"
                 alt="AI Business Plan Interface"
-                className="w-full max-w-sm ml-16"
+                className="w-full max-w-sm lg:ml-16"
               />
             </div>
             
