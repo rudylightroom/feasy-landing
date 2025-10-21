@@ -17,13 +17,20 @@ export default function FinalCTA() {
     setMessage('');
 
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const response = await fetch('https://formspree.io/f/mqayogbr', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Accept': 'application/json'
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          _subject: 'New Waitlist Signup - Feasy'
+        }),
       });
+
+      const data = await response.json();
 
       if (response.ok) {
         setStatus('success');
@@ -31,7 +38,7 @@ export default function FinalCTA() {
         setFormData({ name: '', email: '' });
       } else {
         setStatus('error');
-        setMessage('Something went wrong. Please try again.');
+        setMessage(data.error || 'Something went wrong. Please try again.');
       }
     } catch (error) {
       setStatus('error');
