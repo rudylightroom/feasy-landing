@@ -74,6 +74,7 @@ export default function PricingCard({
       </ul>
       
       <div className="mt-auto">
+        {/* Updated to Join Waitlist button */}
         <Button 
           className="w-full" 
           variant={popular ? 'primary' : 'secondary'}
