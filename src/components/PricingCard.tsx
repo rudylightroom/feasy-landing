@@ -78,8 +78,9 @@ export default function PricingCard({
           className="w-full" 
           variant={popular ? 'primary' : 'secondary'}
           size="lg"
+          href="#waitlist"
         >
-          Get started
+          Join Waitlist
         </Button>
         
         <p className="text-xs text-gray-400 text-center mt-4">
