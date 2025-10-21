@@ -135,8 +135,8 @@ export default function Features() {
                   </div>
                 </div>
                 
-                <Button size="lg" className="w-full">
-                  Start Forecasting
+                <Button size="lg" className="w-full" href="#waitlist">
+                  Join Waitlist
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
@@ -315,8 +315,8 @@ export default function Features() {
                   ))}
                 </div>
                 
-                <Button size="lg" className="w-full">
-                  Generate Business Plan
+                <Button size="lg" className="w-full" href="#waitlist">
+                  Join Waitlist
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
@@ -364,8 +364,8 @@ export default function Features() {
                   </div>
                 </div>
                 
-                <Button size="lg" className="w-full">
-                  Create Beautiful Reports
+                <Button size="lg" className="w-full" href="#waitlist">
+                  Join Waitlist
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>

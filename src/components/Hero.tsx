@@ -51,8 +51,8 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-6"
         >
-          <Button size="lg">
-            Start free trial
+          <Button size="lg" href="#waitlist">
+            Join Waitlist
           </Button>
           <AppStoreBadge />
         </motion.div>

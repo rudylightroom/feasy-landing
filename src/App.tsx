@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import TermsOfService from './components/TermsOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Waitlist from './components/Waitlist';
 
 /**
  * Main App component - Single-page marketing site for Feasy with About page
@@ -31,6 +32,9 @@ function App() {
         window.scrollTo(0, 0); // Scroll to top
       } else if (hash === '#privacy') {
         setCurrentPage('privacy');
+        window.scrollTo(0, 0); // Scroll to top
+      } else if (hash === '#waitlist') {
+        setCurrentPage('waitlist');
         window.scrollTo(0, 0); // Scroll to top
       } else {
         setCurrentPage('home');
@@ -77,6 +81,11 @@ function App() {
   // If privacy page, show Privacy Policy component
   if (currentPage === 'privacy') {
     return <PrivacyPolicy />;
+  }
+
+  // If waitlist page, show Waitlist component
+  if (currentPage === 'waitlist') {
+    return <Waitlist />;
   }
 
   // Default landing page

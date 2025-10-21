@@ -28,8 +28,8 @@ export default function CTABand() {
           
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <AppStoreBadge />
-            <Button variant="secondary" size="lg" className="shadow-lg">
-              Start free trial
+            <Button variant="secondary" size="lg" className="shadow-lg" href="#waitlist">
+              Join Waitlist
             </Button>
           </div>
         </motion.div>

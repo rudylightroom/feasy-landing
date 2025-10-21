@@ -11,7 +11,8 @@ export default function Navbar() {
     { name: 'Features', href: '#features' },
     { name: 'Pricing', href: '#pricing' },
     { name: 'FAQ', href: '#faq' },
-    { name: 'About', href: '#about' }
+    { name: 'About', href: '#about' },
+    { name: 'Waitlist', href: '#waitlist' }
   ];
 
   return (
@@ -68,12 +69,13 @@ export default function Navbar() {
               </a>
             ))}
             <div className="flex flex-col space-y-3 pt-4 border-t border-white/10">
-              <button className="text-primary hover:text-[#BFFD38] transition-colors duration-200 text-sm font-medium py-2">
-                Log in
-              </button>
-              <button className="bg-primary text-white hover:bg-primary/90 px-6 py-3 rounded-2xl font-medium text-sm transition-all duration-300">
-                Sign up
-              </button>
+              <a 
+                href="#waitlist" 
+                className="bg-primary text-white hover:bg-primary/90 px-6 py-3 rounded-2xl font-medium text-sm transition-all duration-300 text-center"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Join Waitlist
+              </a>
             </div>
           </div>
         </div>
