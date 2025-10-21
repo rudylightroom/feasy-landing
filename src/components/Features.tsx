@@ -106,13 +106,13 @@ export default function Features() {
         >
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
-              <div className="glass-light rounded-3xl p-8 shadow-2xl">
-                <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center shadow-lg">
+              <div className="glass-light rounded-3xl p-6 lg:p-8 shadow-2xl">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center shadow-lg flex-shrink-0">
                     <BarChart3 className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold text-white">Professional Forecasts</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-white">Professional Forecasts</h3>
                     <p className="text-primary font-medium">Financial Modeling Made Easy</p>
                   </div>
                 </div>
@@ -272,13 +272,13 @@ export default function Features() {
             </div>
             
             <div className="relative lg:order-2">
-              <div className="glass-light rounded-3xl p-8 shadow-2xl">
-                <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center shadow-lg">
+              <div className="glass-light rounded-3xl p-6 lg:p-8 shadow-2xl">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center shadow-lg flex-shrink-0">
                     <Bot className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold text-white">AI Business Plan</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-white">AI Business Plan</h3>
                     <p className="text-primary font-medium">AI-Powered Business Planning</p>
                   </div>
                 </div>
@@ -335,13 +335,13 @@ export default function Features() {
         >
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
-              <div className="glass-light rounded-3xl p-8 shadow-2xl">
-                <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center shadow-lg">
+              <div className="glass-light rounded-3xl p-6 lg:p-8 shadow-2xl">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center shadow-lg flex-shrink-0">
                     <FileText className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold text-white">Beautiful Reports</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-white">Beautiful Reports</h3>
                     <p className="text-primary font-medium">Professional & Branded</p>
                   </div>
                 </div>
