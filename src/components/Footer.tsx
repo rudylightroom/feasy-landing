@@ -1,5 +1,17 @@
-import { Twitter, Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Github, Mail } from 'lucide-react';
 import AppStoreBadge from './AppStoreBadge';
+
+// Custom X (Twitter) icon component
+const XIcon = ({ className }: { className?: string }) => (
+  <svg
+    className={className}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+  </svg>
+);
 
 /**
  * Footer with links and social icons
@@ -16,7 +28,7 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { name: 'Twitter', icon: Twitter, href: '#' },
+    { name: 'X', icon: XIcon, href: 'https://x.com/rudylightroom' },
     { name: 'LinkedIn', icon: Linkedin, href: '#' },
     { name: 'GitHub', icon: Github, href: '#' },
     { name: 'Email', icon: Mail, href: 'mailto:hello@feasy.pro' }
@@ -70,6 +82,8 @@ export default function Footer() {
                     <a
                       key={social.name}
                       href={social.href}
+                      target={social.href.startsWith('http') ? '_blank' : undefined}
+                      rel={social.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                       className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#BFFD38] hover:text-black transition-colors duration-200 text-[#BFFD38]"
                       aria-label={social.name}
                     >
