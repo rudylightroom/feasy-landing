@@ -1,4 +1,4 @@
-import { Linkedin, Github, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import AppStoreBadge from './AppStoreBadge';
 
 // Custom X (Twitter) icon component
@@ -29,8 +29,6 @@ export default function Footer() {
 
   const socialLinks = [
     { name: 'X', icon: XIcon, href: 'https://x.com/rudylightroom' },
-    { name: 'LinkedIn', icon: Linkedin, href: '#' },
-    { name: 'GitHub', icon: Github, href: '#' },
     { name: 'Email', icon: Mail, href: 'mailto:hello@feasy.pro' }
   ];
 
