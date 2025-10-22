@@ -42,23 +42,12 @@ export default function CTABand() {
            viewport={{ once: true }}
            className="relative flex justify-center lg:justify-start lg:col-span-1 lg:-ml-24"
          >
-          <motion.div
-            animate={{ 
-              y: [0, -15, 0],
-              rotate: [0, 2, 0]
-            }}
-            transition={{ 
-              duration: 6,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-            className="relative z-10"
-          >
+          <div className="relative z-10">
             <ScreenFrame 
               src="/screens/cta-band.png"
               alt="Feasy App Dashboard"
             />
-          </motion.div>
+          </div>
           
           {/* Background glow */}
           <div className="absolute inset-0 bg-accent/20 rounded-full blur-2xl scale-150"></div>
