@@ -19,7 +19,7 @@ export default function CTABand() {
           className="text-white z-10 relative lg:col-span-2"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white drop-shadow-lg">
-            Start your free trial
+            Join The Waitlist Now
           </h2>
           
           <p className="text-xl md:text-2xl text-white/95 mb-8 font-medium drop-shadow-md">
