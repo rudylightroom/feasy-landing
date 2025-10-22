@@ -77,24 +77,13 @@ export default function Hero() {
           className="relative min-h-[500px] lg:min-h-[700px] flex justify-center lg:justify-end"
         >
           {/* Single phone */}
-          <motion.div
-            animate={{ 
-              y: [0, -10, 0],
-              rotate: [0, 1, 0]
-            }}
-            transition={{ 
-              duration: 6,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-            className="relative z-10"
-          >
+          <div className="relative z-10">
             <ScreenFrame 
               src="/screens/hero-placeholder.png"
               alt="Feasy Revenue Stream Setup"
               className="w-64 md:w-72"
             />
-          </motion.div>
+          </div>
         </motion.div>
       </div>
     </section>
