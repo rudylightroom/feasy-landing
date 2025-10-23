@@ -57,6 +57,30 @@ export default function Hero() {
           <AppStoreBadge />
         </motion.div>
 
+        {/* Product Hunt Badge */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="mb-6"
+        >
+          <a 
+            href="https://www.producthunt.com/products/feasy-business-forecasting-made-easy?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-feasy&#0045;2" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <img 
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1029636&theme=dark&t=1761199090763" 
+              alt="Feasy - Forecast Easy—make every idea investor ready. | Product Hunt" 
+              style={{ width: '250px', height: '54px' }} 
+              width="250" 
+              height="54"
+              className="hover:opacity-90 transition-opacity duration-200"
+            />
+          </a>
+        </motion.div>
+
         {/* Trust note */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
