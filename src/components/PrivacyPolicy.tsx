@@ -6,8 +6,14 @@ import {
   Download,
   Settings,
   Mail,
-  Globe,
-  Lock
+  Lock,
+  Key,
+  CreditCard,
+  BarChart3,
+  Clock,
+  Scale,
+  FileText,
+  MapPin
 } from 'lucide-react';
 
 /**
@@ -19,31 +25,61 @@ export default function PrivacyPolicy() {
       id: 1,
       title: "Data We Collect",
       icon: <Database className="w-6 h-6" />,
-      content: "• Business information (name, industry, financial data)\n• User profile information (name, email)\n• Financial forecasts and projections\n• Revenue streams and expense data\n• App usage analytics (anonymized)"
+      content: "• Business information (name, industry, financial data)\n• User profile information (name, email)\n• Financial forecasts and projections\n• Revenue streams and expense data\n• Authentication data (provider IDs, email addresses)\n• Subscription and payment status\n• Feedback and support communications (including device and app version when you submit feedback)\n• Photo attachments (when you choose to attach them)\n\nWe do not use third-party analytics or track your in-app behavior."
     },
     {
       id: 2,
+      title: "Authentication & Third-Party Services",
+      icon: <Key className="w-6 h-6" />,
+      content: "We offer multiple sign-in options:\n\n• Google Sign-In: When you sign in with Google, we receive your name, email address, and profile information from Google. Google's Privacy Policy applies to data collected during authentication.\n• Apple Sign-In: When you sign in with Apple, we receive your name and email (or private relay email). Apple's Privacy Policy applies to data collected during authentication.\n• Email/Password: Your password is securely encrypted and never stored in plain text.\n\nWe do not share your authentication data with third parties except as necessary to provide the service (e.g., syncing via CloudKit)."
+    },
+    {
+      id: 3,
       title: "Data Export Functionality",
       icon: <Download className="w-6 h-6" />,
       content: "Our app allows you to export your financial data in various formats (PDF, Excel, CSV). When you use export features:\n\n• Only data you explicitly choose to export is included\n• Exported files are created locally on your device\n• You control where and how exported files are shared\n• Export data may be encrypted for security\n• We do not automatically upload or share your exported data\n\nExport Compliance: This app uses encryption technology for data protection. Export of encrypted data may be subject to export administration regulations."
     },
     {
-      id: 3,
+      id: 4,
       title: "How We Use Your Data",
       icon: <Settings className="w-6 h-6" />,
       content: "• To provide financial forecasting and reporting services\n• To generate business plans and financial projections\n• To improve app functionality and user experience\n• To provide customer support when requested\n• To comply with legal obligations"
     },
     {
-      id: 4,
+      id: 5,
       title: "Data Storage & Security",
       icon: <Lock className="w-6 h-6" />,
-      content: "• Data is stored locally on your device using Core Data\n• Local backups are encrypted for security\n• Optional iCloud sync (when enabled by user)\n• We implement industry-standard security measures\n• Data is not shared with third parties without consent"
+      content: "• Data is stored locally on your device using Core Data\n• Local backups are encrypted for security\n• Optional CloudKit sync via your iCloud account (when enabled by you)\n• CloudKit data is stored in Apple's secure cloud infrastructure\n• CloudKit syncs your business data across your devices signed into the same iCloud account\n• Apple's CloudKit Privacy Policy applies to synced data\n• We implement industry-standard encryption and security measures\n• Data is not shared with third parties without your consent\n• Push notifications are delivered through Apple Push Notification Service (APNs)"
     },
     {
-      id: 5,
+      id: 6,
+      title: "Subscription & Payment Information",
+      icon: <CreditCard className="w-6 h-6" />,
+      content: "• Subscriptions are processed through Apple's App Store\n• We receive subscription status (Starter or Professional AI plan)\n• We do not receive or store your payment card details\n• Payment information is handled exclusively by Apple\n• Apple's App Store Privacy Policy applies to payment data\n• We use subscription status to enable/disable features"
+    },
+    {
+      id: 7,
+      title: "Analytics & Device Information",
+      icon: <BarChart3 className="w-6 h-6" />,
+      content: "We do not use third-party analytics, tracking, or advertising SDKs in the app.\n\nDevice and app information (e.g. device model, iOS version, app version) may be included only when you voluntarily submit feedback or contact support. We use this to help troubleshoot issues. We do not collect feature usage statistics, error logs, or performance metrics from the app."
+    },
+    {
+      id: 8,
+      title: "Data Retention & Deletion",
+      icon: <Clock className="w-6 h-6" />,
+      content: "• Business and financial data: We retain your data for as long as your account is active. We may introduce automatic deletion after a retention period (e.g. 5 years) in a future update; you will be notified if this changes.\n• Local backups: We may introduce backup retention (e.g. 90 days) in a future update; you will be notified if this applies.\n• CloudKit synced data: Retained until you delete your account or disable sync\n• Account data: Deleted within 30 days of account deletion request (typically immediately)\n• You can delete your account and all associated data at any time through app settings\n• After account deletion, data cannot be recovered\n• CloudKit data is removed from all your synced devices after deletion"
+    },
+    {
+      id: 9,
       title: "Your Rights",
       icon: <Shield className="w-6 h-6" />,
-      content: "• Access your personal data at any time\n• Export your data in standard formats\n• Delete your data through app settings\n• Control data sharing and export preferences\n• Opt out of analytics collection"
+      content: "• Access your personal data at any time through the app\n• Export your data in standard formats (PDF, Excel, CSV, Word)\n• Delete your data and account through app settings\n• Control data sharing and export preferences\n• Request data correction or modification\n• Disable CloudKit sync at any time\n• Revoke photo library access in iOS Settings"
+    },
+    {
+      id: 10,
+      title: "Legal Compliance & International Users",
+      icon: <Scale className="w-6 h-6" />,
+      content: "GDPR Compliance (EU Users):\n\n• We comply with General Data Protection Regulation (GDPR) requirements\n• You have the right to access, rectify, erase, restrict, and port your data\n• You have the right to object to processing and withdraw consent\n• Data processing is based on consent and contractual necessity\n\nCCPA Compliance (California Users):\n\n• We comply with California Consumer Privacy Act (CCPA) requirements\n• You have the right to know what data we collect and how it's used\n• You have the right to delete your personal information\n• We do not sell your personal information to third parties\n\nInternational Data Transfers:\n\n• Data may be transferred to and stored in the United States and other countries\n• CloudKit data is stored in Apple's global infrastructure\n• We ensure appropriate safeguards for international data transfers\n\nAge Restrictions:\n\n• This app is intended for users 13 years and older\n• We do not knowingly collect data from children under 13\n• If you are under 13, please do not use this app without parental consent"
     }
   ];
 
@@ -96,7 +132,7 @@ export default function PrivacyPolicy() {
               Privacy <span className="text-[#BFFD38]">Policy</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Last updated: October 2025
+              Last updated: February 2026
             </p>
           </motion.div>
 
@@ -181,16 +217,21 @@ export default function PrivacyPolicy() {
               <p className="text-lg text-gray-300 mb-8 text-center">
                 If you have questions about this privacy policy or our data practices, please contact us at:
               </p>
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <Mail className="w-8 h-8 text-[#BFFD38] mx-auto mb-3" />
                   <p className="text-white font-medium">Email</p>
                   <p className="text-gray-300">hello@feasy.pro</p>
                 </div>
                 <div className="text-center">
-                  <Globe className="w-8 h-8 text-[#BFFD38] mx-auto mb-3" />
+                  <FileText className="w-8 h-8 text-[#BFFD38] mx-auto mb-3" />
                   <p className="text-white font-medium">Website</p>
                   <p className="text-gray-300">feasy.pro</p>
+                </div>
+                <div className="text-center">
+                  <MapPin className="w-8 h-8 text-[#BFFD38] mx-auto mb-3" />
+                  <p className="text-white font-medium">Company</p>
+                  <p className="text-gray-300">Music Mountain PLT</p>
                 </div>
               </div>
             </div>
