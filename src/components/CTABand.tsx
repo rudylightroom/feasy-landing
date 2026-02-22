@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import Button from './Button';
 import AppStoreBadge from './AppStoreBadge';
-import ScreenFrame from './ScreenFrame';
 
 /**
  * Purple CTA band with phone mockup overlay
@@ -43,9 +42,10 @@ export default function CTABand() {
            className="relative flex justify-center lg:justify-start lg:col-span-1 lg:-ml-24"
          >
           <div className="relative z-10">
-            <ScreenFrame 
-              src="/screens/cta-band.png"
+            <img
+              src="/screens/IMG_2778-portrait.png"
               alt="Feasy App Dashboard"
+              className="w-72 h-auto object-contain"
             />
           </div>
           

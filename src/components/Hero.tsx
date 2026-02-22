@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
 import Button from './Button';
 import AppStoreBadge from './AppStoreBadge';
-import ScreenFrame from './ScreenFrame';
 
 /**
  * Hero section with glass morphism design
@@ -100,12 +99,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="relative min-h-[500px] lg:min-h-[700px] flex justify-center lg:justify-end"
         >
-          {/* Single phone */}
+          {/* Phone mockup (image includes frame) */}
           <div className="relative z-10">
-            <ScreenFrame 
-              src="/screens/hero-placeholder.png"
+            <img
+              src="/screens/IMG_2770-portrait.png"
               alt="Feasy Revenue Stream Setup"
-              className="w-64 md:w-72"
+              className="w-64 md:w-72 h-auto object-contain"
             />
           </div>
         </motion.div>

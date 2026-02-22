@@ -16,7 +16,6 @@ import {
 import Container from './Container';
 import FeatureCard from './FeatureCard';
 import Button from './Button';
-import ScreenFrame from './ScreenFrame';
 import { motion } from 'framer-motion';
 
 /**
@@ -142,11 +141,11 @@ export default function Features() {
               </div>
             </div>
             
-            <div className="relative flex justify-center lg:justify-end">
-              <ScreenFrame 
-                src="/screens/professional-forecasts.png"
+            <div className="relative flex justify-center">
+              <img
+                src="/screens/IMG_2771-portrait.png"
                 alt="Professional Forecasts Dashboard"
-                className="w-full max-w-sm lg:ml-16"
+                className="w-64 md:w-72 h-auto object-contain"
               />
             </div>
           </div>
@@ -244,10 +243,10 @@ export default function Features() {
             </div>
             
             <div className="relative flex justify-center">
-              <ScreenFrame 
-                src="/screens/cash-flow-toggles.png"
+              <img
+                src="/screens/IMG_2773-portrait.png"
                 alt="Cash Flow Toggles Interface"
-                className="w-64 md:w-72"
+                className="w-64 md:w-72 h-auto object-contain"
               />
             </div>
           </div>
@@ -263,11 +262,11 @@ export default function Features() {
           className="mb-32 relative"
         >
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="relative lg:order-1 flex justify-center lg:justify-end">
-              <ScreenFrame 
-                src="/screens/ai-business-plan.png"
+            <div className="relative lg:order-1 flex justify-center">
+              <img
+                src="/screens/IMG_2776-portrait.png"
                 alt="AI Business Plan Interface"
-                className="w-full max-w-sm lg:ml-16"
+                className="w-64 md:w-72 h-auto object-contain"
               />
             </div>
             
@@ -372,10 +371,10 @@ export default function Features() {
             </div>
             
             <div className="relative flex justify-center">
-              <ScreenFrame 
-                src="/screens/beautiful-reports.png"
+              <img
+                src="/screens/IMG_2777-portrait.png"
                 alt="Beautiful Reports Preview"
-                className="w-64 md:w-72"
+                className="w-64 md:w-72 h-auto object-contain"
               />
             </div>
           </div>
