@@ -4,7 +4,7 @@ A modern, responsive marketing website for Feasy - the iOS app for business plan
 
 ## 🚀 Features
 
-- **Modern Design**: Clean, professional design with custom branding
+- **Modern Design**: Clean, professional design with investor-ready exportable documents
 - **Responsive**: Fully responsive across all device sizes
 - **Accessible**: WCAG AA compliant with proper semantic HTML
 - **Animated**: Smooth animations using Framer Motion

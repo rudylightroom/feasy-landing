@@ -51,7 +51,7 @@ export default function Features() {
     {
       icon: <FileText className="w-8 h-8" />,
       title: "Beautiful Reports",
-      description: "Export professional PDF and Word reports with your custom branding and styling.",
+      description: "Export investor-ready documents in PDF, Word, and other formats.",
       scrollToId: "beautiful-reports"
     },
     {
@@ -342,20 +342,20 @@ export default function Features() {
                   </div>
                   <div>
                     <h3 className="text-2xl sm:text-3xl font-bold text-white">Beautiful Reports</h3>
-                    <p className="text-primary font-medium">Professional & Branded</p>
+                    <p className="text-primary font-medium">Professional & Exportable</p>
                   </div>
                 </div>
                 
                 <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                   Create stunning, professional reports that impress investors, lenders, and stakeholders 
-                  with custom branding and beautiful layouts.
+                  with investor-ready, exportable documents and beautiful layouts.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 mb-8">
                   <div className="glass-light rounded-xl p-4 border border-white/20">
                     <FileText className="w-6 h-6 text-primary mb-2" />
-                    <h4 className="font-semibold text-white">Custom Branding</h4>
-                    <p className="text-sm text-gray-300">Your logo & colors</p>
+                    <h4 className="font-semibold text-white">Investor-Ready Documents</h4>
+                    <p className="text-sm text-gray-300">Export & share with stakeholders</p>
                   </div>
                   <div className="glass-light rounded-xl p-4 border border-white/20">
                     <Download className="w-6 h-6 text-primary mb-2" />
