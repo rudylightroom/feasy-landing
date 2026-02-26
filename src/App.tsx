@@ -50,24 +50,6 @@ function App() {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
-  // Check if user is trying to access legal pages directly via URL
-  useEffect(() => {
-    const currentHash = window.location.hash;
-    if (currentHash === '#terms' || currentHash === '#privacy') {
-      // Check if user came from footer navigation
-      const fromFooter = sessionStorage.getItem('fromFooter');
-      
-      if (!fromFooter) {
-        // Redirect to home if accessed directly
-        window.location.hash = '';
-        setCurrentPage('home');
-      } else {
-        // Clear the flag after use
-        sessionStorage.removeItem('fromFooter');
-      }
-    }
-  }, []);
-
   // If about page, show About component
   if (currentPage === 'about') {
     return <About />;
