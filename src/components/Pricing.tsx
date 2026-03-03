@@ -24,6 +24,7 @@ export default function Pricing() {
       period: "/month",
       description: "Business plan",
       popular: true,
+      showTrialText: false,
       features: [
         "Unlimited business profiles",
         "Professional financial forecasting",
@@ -60,6 +61,7 @@ export default function Pricing() {
               description={plan.description}
               features={plan.features}
               popular={plan.popular}
+              showTrialText={plan.showTrialText}
               delay={index * 0.1}
             />
           ))}

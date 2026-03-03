@@ -14,6 +14,7 @@ interface PricingCardProps {
   features: string[];
   popular?: boolean;
   delay?: number;
+  showTrialText?: boolean;
 }
 
 export default function PricingCard({ 
@@ -23,7 +24,8 @@ export default function PricingCard({
   description,
   features, 
   popular = false,
-  delay = 0 
+  delay = 0,
+  showTrialText = true
 }: PricingCardProps) {
   return (
     <motion.div
@@ -84,9 +86,11 @@ export default function PricingCard({
           Join Waitlist
         </Button>
         
-        <p className="text-xs text-gray-400 text-center mt-4">
-          14-day free trial included
-        </p>
+        {showTrialText && (
+          <p className="text-xs text-gray-400 text-center mt-4">
+            14-day free trial included
+          </p>
+        )}
       </div>
     </motion.div>
   );
