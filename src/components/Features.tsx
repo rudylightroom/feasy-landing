@@ -398,6 +398,27 @@ export default function Features() {
               Export professional financial statements and business plans in multiple formats with a single click.
             </p>
           </div>
+
+          {/* Report screen previews - overlapping, center-aligned */}
+          <div className="flex justify-center items-center py-12 mb-4">
+            <div className="flex justify-center items-center -space-x-6 md:-space-x-10">
+              <img
+                src="/screens/BIZ%20PLAN%20FEASY%201.png"
+                alt="Business Plan cover"
+                className="relative z-0 w-36 md:w-48 lg:w-56 rounded-lg shadow-2xl border border-white/20 object-cover"
+              />
+              <img
+                src="/screens/BIZ%20PLAN%20FEASY%202.png"
+                alt="Business Plan Executive Summary"
+                className="relative z-10 w-36 md:w-48 lg:w-56 rounded-lg shadow-2xl border border-white/20 object-cover"
+              />
+              <img
+                src="/screens/PNLFEASY.png"
+                alt="Profit & Loss Statement"
+                className="relative z-20 w-60 md:w-80 lg:w-96 rounded-lg shadow-2xl border border-white/20 object-cover"
+              />
+            </div>
+          </div>
           
           <div className="relative">
             <div className="glass-light rounded-3xl p-12 shadow-2xl">
