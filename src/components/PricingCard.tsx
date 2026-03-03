@@ -86,11 +86,13 @@ export default function PricingCard({
           Join Waitlist
         </Button>
         
-        {showTrialText && (
-          <p className="text-xs text-gray-400 text-center mt-4">
-            14-day free trial included
-          </p>
-        )}
+        <div className="mt-4 min-h-[1.25rem] flex items-center justify-center">
+          {showTrialText && (
+            <p className="text-xs text-gray-400 text-center">
+              14-day free trial included
+            </p>
+          )}
+        </div>
       </div>
     </motion.div>
   );
