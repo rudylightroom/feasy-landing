@@ -18,7 +18,7 @@ export default function CTABand() {
           className="text-white z-10 relative lg:col-span-2"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white drop-shadow-lg">
-            Join The Waitlist Now
+            Start Planning Today
           </h2>
           
           <p className="text-xl md:text-2xl text-white/95 mb-8 font-medium drop-shadow-md">
@@ -27,8 +27,15 @@ export default function CTABand() {
           
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <AppStoreBadge />
-            <Button variant="secondary" size="lg" className="shadow-lg" href="#waitlist">
-              Join Waitlist
+            <Button 
+              variant="secondary" 
+              size="lg" 
+              className="shadow-lg" 
+              href="https://apps.apple.com/my/app/feasy-pro/id6756234286"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Try For Free
             </Button>
           </div>
         </motion.div>

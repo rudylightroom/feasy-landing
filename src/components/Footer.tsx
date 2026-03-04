@@ -22,7 +22,6 @@ export default function Footer() {
     { name: 'Pricing', href: '#pricing' },
     { name: 'FAQ', href: '#faq' },
     { name: 'About', href: '#about' },
-    { name: 'Waitlist', href: '#waitlist' },
     { name: 'Terms of Service', href: '#terms', onClick: () => sessionStorage.setItem('fromFooter', 'true') },
     { name: 'Privacy Policy', href: '#privacy', onClick: () => sessionStorage.setItem('fromFooter', 'true') }
   ];

@@ -76,14 +76,16 @@ export default function PricingCard({
       </ul>
       
       <div className="mt-auto">
-        {/* Updated to Join Waitlist button */}
+        {/* CTA to App Store */}
         <Button 
           className="w-full" 
           variant={popular ? 'primary' : 'secondary'}
           size="lg"
-          href="#waitlist"
+          href="https://apps.apple.com/my/app/feasy-pro/id6756234286"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Join Waitlist
+          Try For Free
         </Button>
         
         <div className="mt-4 min-h-[1.25rem] flex items-center justify-center">

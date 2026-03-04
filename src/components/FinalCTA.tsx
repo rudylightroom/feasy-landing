@@ -34,7 +34,7 @@ export default function FinalCTA() {
 
       if (response.ok) {
         setStatus('success');
-        setMessage('Thank you for joining our waitlist! We\'ll be in touch soon.');
+        setMessage('Thanks! We\'ll keep you updated.');
         setFormData({ name: '', email: '' });
       } else {
         setStatus('error');
@@ -59,11 +59,11 @@ export default function FinalCTA() {
           <div className="glass-light rounded-3xl p-8 lg:p-12 border border-white/10">
             <div className="text-center mb-8">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white">
-                Join the Waitlist
+                Stay In Touch
               </h2>
               
               <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                Be the first to know when Feasy launches. Get exclusive early access and special pricing.
+                Get product updates, new features, and tips to help you plan your business—no spam, we promise.
               </p>
             </div>
 
@@ -112,7 +112,7 @@ export default function FinalCTA() {
                 className="w-full"
                 disabled={status === 'loading'}
               >
-                {status === 'loading' ? 'Joining...' : 'Join Waitlist'}
+                {status === 'loading' ? 'Sending...' : 'Keep Me Updated'}
               </Button>
 
               {/* Status Messages */}

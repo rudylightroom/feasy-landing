@@ -134,8 +134,14 @@ export default function Features() {
                   </div>
                 </div>
                 
-                <Button size="lg" className="w-full" href="#waitlist">
-                  Join Waitlist
+                <Button 
+                  size="lg" 
+                  className="w-full" 
+                  href="https://apps.apple.com/my/app/feasy-pro/id6756234286"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Try For Free
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
@@ -314,8 +320,14 @@ export default function Features() {
                   ))}
                 </div>
                 
-                <Button size="lg" className="w-full" href="#waitlist">
-                  Join Waitlist
+                <Button 
+                  size="lg" 
+                  className="w-full" 
+                  href="https://apps.apple.com/my/app/feasy-pro/id6756234286"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Try For Free
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
@@ -363,8 +375,14 @@ export default function Features() {
                   </div>
                 </div>
                 
-                <Button size="lg" className="w-full" href="#waitlist">
-                  Join Waitlist
+                <Button 
+                  size="lg" 
+                  className="w-full" 
+                  href="https://apps.apple.com/my/app/feasy-pro/id6756234286"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Try For Free
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>

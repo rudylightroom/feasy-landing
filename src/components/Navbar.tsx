@@ -11,8 +11,7 @@ export default function Navbar() {
     { name: 'Features', href: '#features' },
     { name: 'Pricing', href: '#pricing' },
     { name: 'FAQ', href: '#faq' },
-    { name: 'About', href: '#about' },
-    { name: 'Waitlist', href: '#waitlist' }
+    { name: 'About', href: '#about' }
   ];
 
   return (
@@ -70,7 +69,7 @@ export default function Navbar() {
             ))}
             <div className="flex flex-col space-y-3 pt-4 border-t border-white/10">
               <a 
-                href="#waitlist" 
+                href="#pricing"
                 className="bg-primary text-white hover:bg-primary/90 px-6 py-3 rounded-2xl font-medium text-sm transition-all duration-300 text-center"
                 onClick={() => setIsMenuOpen(false)}
               >

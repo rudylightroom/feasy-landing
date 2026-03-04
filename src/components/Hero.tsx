@@ -50,8 +50,13 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-6"
         >
-          <Button size="lg" href="#waitlist">
-            Join Waitlist
+          <Button 
+            size="lg" 
+            href="https://apps.apple.com/my/app/feasy-pro/id6756234286"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Try For Free
           </Button>
           <AppStoreBadge />
         </motion.div>
