@@ -8,7 +8,9 @@ interface AppStoreBadgeProps {
 export default function AppStoreBadge({ className = '' }: AppStoreBadgeProps) {
   return (
     <a 
-      href="#" 
+      href="https://apps.apple.com/my/app/feasy-pro/id6756234286"
+      target="_blank"
+      rel="noopener noreferrer"
       className={`inline-block transition-transform hover:scale-105 ${className}`}
       aria-label="Download on the App Store"
     >
