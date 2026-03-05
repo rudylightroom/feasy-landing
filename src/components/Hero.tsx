@@ -40,7 +40,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-gray-300 text-lg lg:text-xl max-w-2xl mb-10 leading-relaxed"
         >
-          Feasy helps founders and SMEs turn ideas into investor-ready plans with live forecasts, smart reports, and an AI copilot—on iPhone.
+          Feasy Pro helps founders and SMEs turn ideas into investor-ready plans with live forecasts, smart reports, and an AI copilot—on iPhone.
         </motion.p>
 
         {/* CTA Buttons */}
