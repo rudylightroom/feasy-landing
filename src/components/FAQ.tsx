@@ -7,11 +7,11 @@ export default function FAQ() {
   const faqs = [
     {
       question: "How does the 14-day free trial work?",
-      answer: "Experience the full power of Feasy Pro risk-free for 14 days! Both our Starter ($19/month) and Professional AI ($29/month) plans include a complete 14-day free trial with zero commitment. During your trial, you'll have full access to all features of your chosen plan - create professional financial forecasts, generate comprehensive business plans, export reports in multiple formats, and even try our AI-powered business plan assistant (Professional AI plan). You can cancel anytime during the trial without being charged. After 14 days, you'll automatically be subscribed unless you choose to cancel. No hidden fees, no surprises - just 14 days to see how Feasy Pro can transform your business planning."
+      answer: "Experience the full power of Feasy Pro risk-free for 14 days! Our Starter plan ($19/month) includes a complete 14-day free trial with zero commitment. During your trial, you'll have full access to all Starter features—create professional financial forecasts, generate comprehensive business plans, and export reports in multiple formats. You can cancel anytime during the trial without being charged. After 14 days, you'll automatically be subscribed unless you choose to cancel. No hidden fees, no surprises—just 14 days to see how Feasy Pro can transform your business planning."
     },
     {
       question: "Can I export my business plans and reports?",
-      answer: "Absolutely! Feasy Pro offers comprehensive export capabilities that let you take your data anywhere. Export your business plans as professional PDF documents or editable Word files. Download your financial reports in PDF, Excel, or CSV formats for further analysis. You can customize export settings including paper size, orientation, and color schemes. All exports include professional formatting with Feasy Pro app branding. Whether you need to share with investors, submit to banks, or analyze data in other tools, Feasy Pro gives you the flexibility to export everything in the format that works best for your needs."
+      answer: "Absolutely! Feasy Pro offers comprehensive export capabilities that let you take your data anywhere. Export your business plans as professional PDF documents or editable Word files. Download your financial reports in PDF, Excel, or CSV formats for further analysis. Whether you need to share with investors, submit to banks, or analyze data in other tools, Feasy Pro gives you the flexibility to export everything in the format that works best for your needs."
     },
     {
       question: "How secure is my business data?",

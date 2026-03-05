@@ -41,7 +41,7 @@ export default function Footer() {
               <div className="flex items-center mb-4">
                 <img 
                   src="/logo.png" 
-                  alt="Feasy Logo" 
+                  alt="Feasy Pro Logo" 
                   className="h-8 w-auto"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function Footer() {
           {/* Bottom Bar */}
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © {new Date().getFullYear()} Feasy. All rights reserved.
+              © {new Date().getFullYear()} Feasy Pro. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
             </div>
